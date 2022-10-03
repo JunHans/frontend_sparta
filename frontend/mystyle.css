@@ -1,0 +1,23 @@
+* {
+    font-family: 'Jua', sans-serif;
+}
+/* *은 모든 태그에 먹히게 하겠다! 이런 뜻이다*/
+.mytitle {
+    width: 300px;
+    height: 200px;
+    color: white;
+    text-align: center;
+
+    background-image: url("https://www.ancient-origins.net/sites/default/files/field/image/Agesilaus-II-cover.jpg");
+    background-size: cover;
+    background-position: center;
+    /*<!--위 3개는 항상 같이 다닌다.-->*/
+    border-radius: 10px;
+    padding-top: 40px;
+
+}
+.wrap {
+    width: 300px;
+    margin: auto;
+    /*<!--상하좌우 최대한 미세요 라는 뜻-->*/
+}
